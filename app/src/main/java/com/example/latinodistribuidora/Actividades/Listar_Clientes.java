@@ -78,7 +78,7 @@ public class Listar_Clientes extends AppCompatActivity {
         Filtrar = (Button) findViewById(R.id.btn_FiltarClientes);
 
         llenarLista();
-        onClick();
+        //onClick();
 
         findViewById(R.id.btnADDC).setOnClickListener(new View.OnClickListener() {
             @Override
