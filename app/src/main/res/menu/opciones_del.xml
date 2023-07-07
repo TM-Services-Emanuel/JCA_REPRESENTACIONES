@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app='http://schemas.android.com/apk/res-auto'>
+    <item
+        android:id="@+id/item_eliminar"
+        android:icon="@drawable/ic_eliminar173546"
+        android:title="Eliminar factura"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_reimprimir"
+        android:icon="@drawable/ic_imprimir173546"
+        android:title="Re-imprimir factura"
+        app:showAsAction="always" />
+</menu>

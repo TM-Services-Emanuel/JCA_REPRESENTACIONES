@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">FACT-EXPRESS</string>
+    <string name="btnirregistrar">REGISTRAR VENDEDOR</string>
+    <string name="btnregistrar">GUARDAR REGISTRO</string>
+    <string name="btnmodificar">MODIFICAR REGISTRO</string>
+    <string name="btnIrMenu">INICIAR SESIÓN</string>
+    <string name="btnIrInicio">CERRAR SESIÓN</string>
+    <string name="btnAgregar">AGREGAR</string>
+    <string name="btnFin">FINALIZAR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="URL_SAVE_VENTAS"> /fact-express/saveVentas.php</string>
+    <string name="URL_SAVE_DETALLES"> /fact-express/saveDVentas.php</string>
+    <string name="URL_UPDATE_PRODUCTOS"> /fact-express/getProductos.php</string>
+    <string name="URL_UPDATE_EMPRESA"> /fact-express/getEmpresa.php</string>
+    <string name="URL_UPDATE_TIMBRADO"> /fact-express/getTimbrado.php</string>
+    <string name="URL_UPDATE_PUNTOEMISION"> /fact-express/getPuntoEmision.php?id=</string>
+    <string name="URL_UPDATE_PUNTOEMISIONGENERAL"> /fact-express/getPuntoEmisionG.php?id=</string>
+    <string name="URL_UPDATE_CLIENTES"> /fact-express/getClientes.php</string>
+    <string name="URL_SAVE_PUNTOEMISION"> /fact-express/updatePuntoEmision.php</string>
+    <string name="URL_SETUPDATE_PUNTOEMISION"> /fact-express/savePuntoEmision.php?id=</string>
+    <string name="URL_UPDATE_USUARIOS"> /fact-express/getUsuarios.php</string>
+    <string name="URL_UPDATE_DEPARTAMENTOS"> /fact-express/getDepartamentos.php</string>
+    <string name="URL_UPDATE_CIUDADES"> /fact-express/getCiudades.php</string>
+    <string name="URL_UPDATE_DIVISION"> /fact-express/getDivision.php</string>
+    <string name="URL_UPDATE_IVA"> /fact-express/getIVA.php</string>
+    <string name="URL_UPDATE_UM"> /fact-express/getUM.php</string>
+    <string name="timbrados">LISTA DE TIMBRADOS</string>
+    <string name="observaci_n_solo_un_timbrado_debe_de_estar_activo_para_evitar_errores_a_la_hora_de_emitir_comprobantes">Observación: Solo un timbrado debe de estar activo para evitar errores en la sincronización de puntos de emisiones y a la hora de emitir comprobantes.</string>
+    <string name="clientes">GESTIONAR CLIENTES</string>
+    <string name="ingrese_ci_o_ruc">Ingrese CI o RUC</string>
+    <string name="filtrar">FILTRAR</string>
+    <string name="modificar_cliente">ACTUALIZAR DATOS DEL CLIENTE</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="ingrese_r_u_c">Ingrese R.U.C.</string>
+    <string name="raz_n_social">Razón Social:</string>
+    <string name="tel_fono_o_celular">Teléfono o Celular:</string>
+    <string name="r_u_c">R.U.C.:</string>
+    <string name="ingrese_raz_n_social">Ingrese razón social</string>
+    <string name="ingrese_un_n_mero_telef_nico">Ingrese un número telefónico</string>
+    <string name="ingrese_la_direcci_n">Ingrese la dirección</string>
+    <string name="punto_de_emisi_n">LISTA DE PUNTOS DE EMISIÓN</string>
+    <string name="observaci_n_solo_un_punto_de_emisi_n_debe_de_estar_activo_para_evitar_errores_a_la_hora_de_emitir_comprobantes">Observación: Solo un punto de emisión debe de estar activo para evitar errores a la hora de emitir comprobantes.</string>
+    <string name="productos">LISTA DE PRODUCTOS</string>
+    <string name="textviews">TextView</string>
+    <string name="cod_barra">COD BARRA:</string>
+    <string name="textviewd">TextView</string>
+    <string name="cod_interno">COD INTERNO:</string>
+    <string name="textviewe">TextView</string>
+    <string name="clasificacion">CLASIFICACIÓN:</string>
+    <string name="textviewt">TextView</string>
+    <string name="precio">PRECIO VENTA:</string>
+    <string name="textviewc">TextView</string>
+    <string name="textviewu">TextView</string>
+    <string name="precio_costo">PRECIO COSTO:</string>
+    <string name="buscador">Buscador</string>
+    <string name="descripci_n">DESCRIPCIÓN:</string>
+    <string name="_0">0</string>
+    <string name="total">TOTAL</string>
+    <string name="cant">CANT.:</string>
+    <string name="unid_medida">UNID. MEDIDA:</string>
+    <string name="inicializar_venta">COMENCEMOS A VENDER</string>
+    <string name="inicializar_venta_costo">COMENCEMOS A VENDER A PRECIO COSTO</string>
+    <string name="seleccione_un_cliente_para_continuar">Seleccione un cliente para continuar</string>
+    <string name="actualizar_ciudad">ACTUALIZAR CIUDAD</string>
+    <string name="ciudad">Ciudad:</string>
+    <string name="ingresar_ciudad">Ingresar ciudad</string>
+    <string name="departamento">Departamento:</string>
+    <string name="actualizar_departamento">ACTUALIZAR DEPARTAMENTO</string>
+    <string name="ingresar_departamento">Ingresar departamento</string>
+    <string name="clasificaci_n_de_productos">Clasificación de productos:</string>
+    <string name="ingrese_clasificaci_n_de_producto">Ingrese clasificación de producto</string>
+    <string name="version">Versión 2.9.15 © 2020 - 2023 | Todos los derechos reservados</string>
+    <string name="carrito_de_venta">AGREGAR AL CARRITO DE VENTA</string>
+
+    <string-array name="condicion_venta">
+        <item>CONTADO</item>
+        <item>CREDITO</item>
+    </string-array>
+
+</resources>

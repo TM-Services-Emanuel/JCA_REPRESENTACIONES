@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app='http://schemas.android.com/apk/res-auto'>
+    <item
+        android:id="@+id/item_vender"
+        android:icon="@drawable/ic_vender173546"
+        android:title="Vender"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/item_contado"
+                android:title="Condición de Venta: CONTADO" />
+            <item
+                android:id="@+id/item_credito"
+                android:title="Condición de Venta: CRÉDITO" />
+        </menu>
+    </item>
+</menu>

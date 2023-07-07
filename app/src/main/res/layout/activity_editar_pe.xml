@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.Editar_PE">
+
+    <LinearLayout
+        android:id="@+id/linearLayout46"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/fact"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="ACTUALIZAR PUNTO DE EMISIÓN"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingStart="5dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout78"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout46">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="Establecimiento:"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/id_estable_mod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ej:001"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="Punto de emisión:"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/id_pe_mod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ej: 002"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="Dirección:"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/id_dir_mod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Dirección"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/teal_700"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="Parametros de facturación"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/id_inicio_mod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Desde"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/id_fin_mod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hasta"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:textSize="18sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/id_switchPE_mod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alatsi"
+                    android:gravity="center|left"
+                    android:minHeight="48dp"
+                    android:onClick="onClick"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    android:text="Estado:  "
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/id_est_pe_mod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/archivo"
+                    android:gravity="center"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout78"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/fact"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/id_btnMPE"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_guardar"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/archivo"
+            android:text="@string/btnmodificar"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
