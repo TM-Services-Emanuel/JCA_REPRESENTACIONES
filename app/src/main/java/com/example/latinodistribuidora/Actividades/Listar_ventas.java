@@ -452,7 +452,7 @@ public class Listar_ventas extends AppCompatActivity {
             if(pairedDevices.size() > 0) {
                 for (BluetoothDevice device:pairedDevices) {
                     Log.e("device: ",device.getName());
-                    if (device.getName().equals("4B-2033PA-482A")) {
+                    if (device.getName().equals("4B-2033PA-B8B0")) {
                         mmDevice = device;
                         break;
                     }
